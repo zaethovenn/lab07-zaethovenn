@@ -37,7 +37,7 @@ public class Experiment {
   public static void main(String[] args) {
     // call the method that runs the experiment
     runExperiments("toString");
-    // TODO: Call the method that will run the experiment for your recursive method
+    runExperiments("recursive");
   }
 
 }

@@ -32,7 +32,7 @@ You will complete a programming project using source code provided in the textbo
 
 ## Introduction
 
-Designed for use with [GitHub Classroom](https://classroom.github.com/) and [GatorGrader](https://github.com/GatorEducator/gatorgrader/), this repository contains the starter files for a laboratory assignment seven in a Data Abstraction introductory computer science class that uses the Java programming language. 
+Designed for use with [GitHub Classroom](https://classroom.github.com/) and [GatorGrader](https://github.com/GatorEducator/gatorgrader/), this repository contains the starter files for a laboratory assignment seven in a Data Abstraction introductory computer science class that uses the Java programming language.
 
 This assignment requires a programmer to implement and test a benchmarking framework that supports the empirical evaluation of the `SinglyLinkedList`'s method that produces a textual representation of its contained data and a recursive method of a programmer's choice. Please note that this assignment will also require you to read and use Java classes that contain a test suite. Specifically, the programmer is responsible for learning how to run and extend a test suite written in the JUnit testing framework, as explained in Section 1.9\. As verified by [Checkstyle](https://github.com/checkstyle/checkstyle), the source code for all of the Java classes must adhere to all of the requirements in the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
 

@@ -12,9 +12,13 @@ Please provide a fenced code block.
 
 Please provide a response to this question.
 
+A SinglyLinkedList contains nodes because a singly linked list is full of nodes that contain the current position, the data inside it, and the next nodes location. The singly linked lists only go unidirectional so the nodes help you move fluidly between eachother.
+
 ## Why is the `Node` class "nested" inside of the `SinglyLinkedList<E>`?
 
 Please provide a response to this question.
+
+The node class is nested inside the SinglyLinkedList<E> because this is where you configure the node to work with the singlylinkedlist. when it is nested like this it is easier to call and use the data stored in the list.
 
 ## For the chosen input sizes, what is the efficiency of `toString`? Use both the results of your experiments and big Oh notation.
 
