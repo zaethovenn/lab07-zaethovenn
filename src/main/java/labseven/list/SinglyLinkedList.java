@@ -30,7 +30,7 @@ package labseven.list;
  * @author Roberto Tamassia
  * @author Michael H. Goldwasser
  * @author Janyl Jumadinova
- * @author Add Your Name Here
+ * @author zackery devers
  */
 
 public class SinglyLinkedList<E> implements Cloneable {
@@ -131,8 +131,11 @@ public class SinglyLinkedList<E> implements Cloneable {
    * @param element the new element to add
    */
   public void addFirst(E element) {
-    // TODO: add a full implementation of the addFirst method
-    // Please consult your textbook and class activity 11
+    head = new Node<>(element, head);
+    if (size == 0) {
+      tail = head;
+    }
+    size++;
   }
 
   /**
@@ -140,8 +143,14 @@ public class SinglyLinkedList<E> implements Cloneable {
    * @param element the new element to add
    */
   public void addLast(E element) {
-    // TODO: add a full implementation of the addLast method
-    // Please consult your textbook and class activity 11
+    Node<E> newest = new Node<>(element, null);
+    if (isEmpty()) {
+      head = newest;
+    } else {
+      tail.setNext(newest);
+    }
+    tail = newest;
+    size++;
   }
 
   /**
@@ -149,14 +158,18 @@ public class SinglyLinkedList<E> implements Cloneable {
    * @return the removed element (or null if empty)
    */
   public E removeFirst() {
-    // TODO: add a full implementation of the removeFirst method
-    // Please consult your textbook and class activity 11
+    if (isEmpty()) {
+      return null;
+    }
+    final E answer = head.getElement();
+    head = head.getNext();
+    size--;
+    if (size == 0) {
+      tail = null;
+    }
+     return answer;
   }
-
-  /** TODO: Add recursive function's Javadoc comment.
-  // TODO: add a full implementation of a recursive function
-  // of your choice using Singly Linked List
-
+  
   /**
    * Produces a string representation of the contents of the list.
    * @return the textual representation of the SinglyLinkedList

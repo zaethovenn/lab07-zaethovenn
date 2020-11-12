@@ -1,4 +1,4 @@
-# Reflection Add Your Name Here
+# Reflection zackery devers
 
 ## Using a fenced code block, please display the output from running the experiment
 
@@ -26,15 +26,15 @@ Please provide a response to this question.
 
 ## After completing this assignment, what is a task that you want to practice more? Why?
 
-Please provide a response to this question.
+I want to practice the implementation of more complex algorithms into my programs. Complex algorithms are the crux of increadibly impressive and interesting programs spanning from Artificial intelligence to operating systems and they can be seen truly in every digital aspect of every day life. The ability to not only understand but excel in the creation and implementation of algorithms is the foundation of becoming a well rounded computer scientist.
 
 ## What challenges did you face during this assignment? How did you handle them?
 
-Please provide a response to this question.
+It is challenging to figure out how to effectively build algorithms that handle the data given them and are able to run with the ideal effenciency. As with any new mathmatic subject, these algorithms will take practice to understand, yet after enough work, they will be easy to formulate and make efficient.
 
 ## After completing this assignment, what is one experience for which you are grateful?
 
-Please provide a response to this question.
+I am definently greatful for the ability to learn about how to optimize algorithms. Algorithm optimization is crucial in building an intricite, efficient, and user friendly program. It is great to know that there are means of optimization and testing that optimization.
 
 ## If you worked in a team, please describe your team work experience. Specifically, please provide details on how to worked on this assignment as a team.
 

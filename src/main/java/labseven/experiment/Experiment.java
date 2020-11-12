@@ -9,7 +9,7 @@ import labseven.list.SinglyLinkedList;
  * different number of rounds for different methods of SinglyLinkedList.
  *
  * @author Janyl Jumadinova
- * @author Add Your Name Here
+ * @author zackery devers
  */
 
 public class Experiment {
