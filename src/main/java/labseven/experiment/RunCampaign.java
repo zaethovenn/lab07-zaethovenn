@@ -61,10 +61,11 @@ public class RunCampaign implements Campaign {
         long timeAfter = System.currentTimeMillis();
         long timeElapsed = timeAfter - timeBefore;
         //store the result and produce the debugging
-        results.addResult(long)currentInputSize, timeElapsed);
-        System.out.println(INDENTATION) + "Running round " + campaignRound;
+        results.addResult((long)currentInputSize, timeElapsed);
+        System.out.println(IDENTATION + "Running round " + campaignRound
             + " with input size " + currentInputSize);
         currentInputSize = currentInputSize * INPUT_GROWTH_FACTOR;
+        campaignRound++;
       }
       System.out.println("... Finishing a campaign of experiments with " + operation);
       return results;

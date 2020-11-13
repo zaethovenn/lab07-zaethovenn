@@ -50,7 +50,12 @@ public class SinglyLinkedList<E> implements Cloneable {
     /** A reference to the subsequent node in the list. */
     private Node<E> next;
 
-    // TODO: Add the required JavaDoc comment.
+    /**
+     * Creates a node with the given element and next node.
+     *
+     * @param element the element to be stored
+     * @param next reference to a node that should follow the new node
+     */
     public Node(E element, Node<E> next) {
       this.element = element;
       this.next = next;
@@ -176,7 +181,7 @@ public class SinglyLinkedList<E> implements Cloneable {
     if (size == 0) {
       tail = null;
     }
-     return answer;
+    return answer;
   }
 
   /**

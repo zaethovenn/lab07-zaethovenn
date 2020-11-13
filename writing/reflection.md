@@ -4,9 +4,134 @@
 
 Please provide a fenced code block.
 
+```
+> Task :run
+Starting a campaign of experiments with toString ...
+  Running round 0 with input size 10
+  Running round 1 with input size 20
+  Running round 2 with input size 40
+  Running round 3 with input size 80
+  Running round 4 with input size 160
+  Running round 5 with input size 320
+  Running round 6 with input size 640
+  Running round 7 with input size 1280
+  Running round 8 with input size 2560
+  Running round 9 with input size 5120
+  Running round 10 with input size 10240
+  Running round 11 with input size 20480
+  Running round 12 with input size 40960
+  Running round 13 with input size 81920
+  Running round 14 with input size 163840
+... Finishing a campaign of experiments with toString
+
+Results of an experiment campaign
+Size (#)        Timing (ms)     Ratio (#)
+10              0               0
+20              0               0
+40              0               0
+80              0               0
+160             0               0
+320             0               0
+640             0               0
+1280            0               0
+2560            0               0
+5120            0               0
+10240           2               0
+20480           3               2
+40960           5               2
+81920           3               1
+163840          6               2
+
+Starting a campaign of experiments with recursive ...
+  Running round 0 with input size 10
+  Running round 1 with input size 20
+  Running round 2 with input size 40
+  Running round 3 with input size 80
+  Running round 4 with input size 160
+  Running round 5 with input size 320
+  Running round 6 with input size 640
+  Running round 7 with input size 1280
+  Running round 8 with input size 2560
+  Running round 9 with input size 5120
+  Running round 10 with input size 10240
+  Running round 11 with input size 20480
+  Running round 12 with input size 40960
+  Running round 13 with input size 81920
+  Running round 14 with input size 163840
+... Finishing a campaign of experiments with recursive
+
+Results of an experiment campaign
+Size (#)        Timing (ms)     Ratio (#)
+10              0               0
+20              0               0
+40              0               0
+80              0               0
+160             0               0
+320             0               0
+640             0               0
+1280            0               0
+2560            1               0
+5120            0               0
+10240           1               0
+20480           1               1
+40960           1               1
+81920           1               1
+163840          4               4
+```
+
 ## Using a fenced code block, please provide the output from running your test suite
 
 Please provide a fenced code block.
+
+```
+> Task :test
+
+labseven.TestResultsTable > testConstructResultsTableNotNull PASSED
+
+labseven.TestResultsTable > testResultsTableContainsOneRow PASSED
+
+labseven.TestResultsTable > testResultsTableContainsTwoRows PASSED
+
+labseven.TestResultsTable > testResultsTableToStringDoesNotCrashWithTwoRows PASSED
+
+labseven.TestResultsTable > testResultsTableContainsRatio PASSED
+
+labseven.TestResultsTable > testResultsTableContainsRatioWithZeroValues PASSED
+
+labseven.TestSinglyLinkedList > testConstructSinglyLinkedListNotNull PASSED
+
+labseven.TestSinglyLinkedList > testConstructSinglyLinkedListCorrectInitialState PASSED
+
+labseven.TestSinglyLinkedList > testSinglyLinkedListAfterAddFirst PASSED
+
+labseven.TestSinglyLinkedList > testSinglyLinkedListAfterAddFirstAndRemoveFirst PASSED
+
+labseven.TestSinglyLinkedList > testSinglyLinkedListAfterAddLast PASSED
+
+labseven.TestSinglyLinkedList > testSinglyLinkedListAfterAddLastAndRemoveFirst PASSED
+
+labseven.TestSinglyLinkedList > testSinglyLinkedListAfterAddFirstAddLast PASSED
+
+labseven.TestSinglyLinkedList > testSinglyLinkedListAfterAddLastAddFirst PASSED
+
+labseven.TestSinglyLinkedList > testSinglyLinkedListAfterAddFirstAddFirst PASSED
+
+labseven.TestSinglyLinkedList > testSinglyLinkedListAfterAddLastAddLast PASSED
+
+labseven.TestSinglyLinkedList > testToStringDoesNotReturnNull PASSED
+
+labseven.TestSinglyLinkedList > testAddManyStringsToLinkedListWithAddFirst PASSED
+
+labseven.TestSinglyLinkedList > testAddManyStringsToLinkedListWithAddLast PASSED
+
+labseven.TestSinglyLinkedList > testAddManyStringsToLinkedListWithAddFirstAndAddLast PASSED
+
+labseven.TestSinglyLinkedList > testAddManyStringsToLinkedListWithAddLastAndThenRemove PASSED
+
+labseven.TestSinglyLinkedList > testAddManyStringsToLinkedListWithAddFirstAndThenRemove PASSED
+
+BUILD SUCCESSFUL in 5s
+```
 
 ## Why does the `SinglyLinkedList` contains a `Node` class inside of it?
 
