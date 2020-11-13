@@ -4,7 +4,7 @@
 
 Please provide a fenced code block.
 
-```
+```bash
 > Task :run
 Starting a campaign of experiments with toString ...
   Running round 0 with input size 10
@@ -83,7 +83,7 @@ Size (#)        Timing (ms)     Ratio (#)
 
 Please provide a fenced code block.
 
-```
+```bash
 > Task :test
 
 labseven.TestResultsTable > testConstructResultsTableNotNull PASSED
