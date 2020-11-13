@@ -169,6 +169,7 @@ public class SinglyLinkedList<E> implements Cloneable {
 
   /**
    * Removes and returns the first element of the list.
+   * public
    * @return the removed element (or null if empty)
    */
   public E removeFirst() {
