@@ -40,7 +40,7 @@ public class SinglyLinkedList<E> implements Cloneable {
   * element and to the subsequent node in the list (or null if this
   * is the last node).
   */
-  // TODO: Make sure that you understand how a Node class
+  // : Make sure that you understand how a Node class
   // declaration is "nested" inside of the SinglyLinkedList
   private static class Node<E> {
 
@@ -56,17 +56,26 @@ public class SinglyLinkedList<E> implements Cloneable {
       this.next = next;
     }
 
-    // TODO: Add the required JavaDoc comment.
+    /**
+     * Returns the element stored at the node.
+     * @return the element stored at the node
+     */
     public E getElement() {
       return element;
     }
 
-    // TODO: Add the required JavaDoc comment.
+    /**
+     * Returns the node that follows this one (or null if no such node).
+     * @return the following node
+     */
     public Node<E> getNext() {
       return next;
     }
 
-    // TODO: Add the required JavaDoc comment.
+    /**
+     * Sets the node's next reference to point to Node next.j
+     * @param next the node that should follow this one
+     */
     public void setNext(Node<E> next) {
       this.next = next;
     }
@@ -169,7 +178,7 @@ public class SinglyLinkedList<E> implements Cloneable {
     }
      return answer;
   }
-  
+
   /**
    * Produces a string representation of the contents of the list.
    * @return the textual representation of the SinglyLinkedList
